@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :posts
   root 'welcome#home'
   get '/about' => 'welcome#about'
   get '/contact' => 'welcome#contact'  
